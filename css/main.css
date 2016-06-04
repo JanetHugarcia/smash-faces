@@ -1,0 +1,55 @@
+/* Inserta tu codigo aqui */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+    background-color:#1F3A93;
+    color:white;
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.pdt{
+	padding-top: 5%;
+}
+.pdb{
+	padding-bottom: 5%;
+}
+.pdl{
+	padding-left: 5%;
+}
+.pdr{
+	padding-right: 5%;
+}
+header{
+	background-color: #f9f9f9;
+	color:#1F3A93;
+}
+h1{
+	text-transform: uppercase;
+}
+#imagen{
+	margin:0 auto;
+	border:2px solid white;
+	height: 225px;
+	width: 300px;
+	padding:5px;
+}
+.foto{
+	width: 100%;
+}
+#record{
+	color:#1F3A93;
+	background-color: white;
+	font-size: 20px;
+}
+#lista,#comprobar,#nombre{
+	color: black;
+}
+.foto{
+	opacity: 0.9;
+}
+
+#imagen:hover{
+	transition: 3s;
+	opacity: 0.5;
+	color:white;
+}

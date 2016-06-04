@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Faces</title>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+	<header>	
+		<div class="container">	
+			<div class="row">
+				<div class="col-md-12 ">
+					<h1 class="text-center">Smash Faces</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="descripicion pdt pdr pdl pdb">
+						Bienvenidas al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para ellos su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar al siguiente. 
+					</div>
+						
+				</div>
+			</div>
+			<div class="row pdt pdb pdl pdr">
+				<div class="col-md-6">	
+					<strong>Elige tu país</strong>
+					<select id="lista" >
+					  <option value="1" >--Selecciona tu pais--</option>
+					  <option value="2">Perú</option>
+					  <option value="3">Mexico</option>
+					</select>
+				</div>
+				<div class="col-md-6">
+						<p id="puntos" >puntos: <span id="record"></span></p>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-md-5">
+					<div id="imagen">
+					</div>
+				</div>
+				<div class="col-md-7 ">
+					<div class="controles pdt pdb pdl pdr">	
+						<label for="">Ingresa su nombre</label>
+						<input id="nombre" type="text">
+						<button id="comprobar" class="btn btn-secundario">Comprobar</button>
+						<p id="mensaje"></p>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+		<script src="js/peru.js"></script>
+		<script src="js/mexico.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
